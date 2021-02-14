@@ -1,0 +1,95 @@
+div.heading1
+{
+	margin-top:100px;
+	margin-left:100px;
+	line-height:40%;
+}
+div.heading2
+{
+	margin-top:30px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px; 
+}
+div.heading3
+{
+	margin-top:6px;
+	margin-left:100px;
+}
+.table1
+{
+	width: 880px;
+	border-collapse:collapse;
+
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+.k
+{
+	border-bottom:1px solid black;
+}
+div.heading4
+{
+	margin-top:30px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px;  
+}
+div.heading5
+{
+	margin-top:40px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px; 
+}
+div.heading6
+{
+	margin-top:60px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px; 
+}
+div.heading7
+{
+	margin-top:230px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px; 
+}
+div.heading8
+{
+	margin-top:40px;
+	margin-left:100px;
+	background-color:lightgrey;
+	height:30px;
+	width: 1000px;
+	padding-left:7px;
+	padding-top:5px; 
+}
+.inner
+{
+	margin-left:20px;
+}
+.inner1
+{
+	margin-left:20px;
+}
+ul
+{
+	margin-left:-30px;
+}
