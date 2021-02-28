@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Random color change </title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            background-color: blueviolet;
+            border-radius: 50%;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question 1</h1>
+    <div id="div1" onclick="changeColor()"></div>
+    <script>
+        // var digits = ['0','1','2','3','4','5','6','7','8','9','a','b','c','d','e','f'];
+        var digits = "0123456789ABCDEF"; 
+        function returnRandomColor(){
+            low = 0;
+            high = 15;
+            color = '#';
+            for(i=0; i<6; i++){
+                color = color + digits[low + Math.floor(Math.random()*(high+1-low))];
+            }
+            return color;
+        }
+        function changeColor(){
+            ele = document.getElementById('div1');
+            color = returnRandomColor();
+            ele.style.backgroundColor=color;
+            // console.log(color); 
+        }
+    </script>
+</body>
+</html>

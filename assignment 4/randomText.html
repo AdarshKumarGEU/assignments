@@ -1,0 +1,38 @@
+<html>
+<head>
+    <title>Random Text Change</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        body{
+            margin: 20px 20px;
+        }
+        .para{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .p1{
+            color:green;
+        }
+        .p2{
+            color:rgb(255, 0, 43);
+        }
+        .p3{
+            color:#0606d1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Question 3</h1>
+    <p class="p1 para">Welcome To The Course of Web!</p>
+    <p class="p2 para">Welcome To The Course of Web!</p>
+    <p class="p3 para">Welcome To The Course of Web!</p>
+    
+    <button type="button" class="btn btn-success" onclick="changeText()">Change</button>
+
+    <script>
+        function changeText(){
+            elements = document.getElementsByClassName('para');
+        for(i=0; i<elements.length; i++){elements[i].textContent = 'Welcome To JS Line Number '+i;}
+        }
+    </script>
+</body>
+</html>
